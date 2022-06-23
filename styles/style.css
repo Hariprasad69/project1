@@ -87,6 +87,7 @@ body {
 }
 
 .head {
+  font-size: 36px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -113,6 +114,8 @@ body {
 
 .quote {
   font-style: italic;
+  font-size: 36px;
+  font-weight: 50;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,4 +130,41 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-content: flex-end;
+}
+
+.container4 {
+  background-color: blue;
+  color: black;
+  display: flex;
+  width: 100%;
+  /* margin: 5rem; */
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+.h4 {
+  color: #f9faf8;
+  display: flex;
+  flex-direction: row;
+}
+.p {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.btn2 {
+  background-color: blue;
+  color: #f9faf8;
+  width: 6rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
