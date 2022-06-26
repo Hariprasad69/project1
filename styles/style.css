@@ -30,7 +30,6 @@ body {
   font-size: 16px;
 }
 
-/* global css*/
 img {
   width: 100%;
   height: auto;
@@ -70,6 +69,9 @@ h1 {
   flex-wrap: wrap;
   align-content: space-evenly;
 }
+.hero-left-heading {
+  font-size: 36px;
+}
 
 p {
   padding-top: 10px;
@@ -84,7 +86,7 @@ a.btn {
   padding: 5px;
   border-radius: 5px;
 }
-.container-two {
+.container-2 {
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -95,10 +97,7 @@ a.btn {
   align-content: space-around;
   width: 100%;
 }
-h2. {
-  font-size: 36px;
-  font-weight: bolder;
-}
+
 .image-container {
   display: flex;
   flex-direction: row;
@@ -115,6 +114,8 @@ img.image-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
+  font-weight: bolder;
 }
 p.hero-left-para {
   text-align: left;
@@ -134,7 +135,7 @@ p.hero-left-para {
 }
 
 p.quote {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: lighter;
   font-style: italic;
 }
@@ -145,7 +146,7 @@ p.author {
   background-color: #3882f6;
   width: 80%;
   padding: 20px;
-  margin: 50px;
+  margin: 40px;
   display: flex;
   justify-content: space-around;
   align-items: center;
